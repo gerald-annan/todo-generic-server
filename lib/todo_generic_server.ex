@@ -1,18 +1,5 @@
 defmodule TodoGenericServer do
-  @moduledoc """
-  Documentation for `TodoGenericServer`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> TodoGenericServer.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def run do
+    TodoServer.start()
   end
 end
